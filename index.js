@@ -31,5 +31,7 @@ const course = new Course({
 });
 async function getCourses(){
     const courses = await Course
-    .find({author:'mosh', isPublished: true});
+    .find({author:'mosh', isPublished: true})
+    // Course.limit(10),
+    // .sort
 }
