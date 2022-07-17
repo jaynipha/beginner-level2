@@ -40,6 +40,9 @@ async function getCourses(){
     .find({author:/hamedani$/})
     // if we want to find a word written anywhere (it could be in the beginning or the end or middle, 
     //here is the syntax
+    const pageNumber =2;
+    const pageSize = 10;
+    const course = await course
 
 
 
