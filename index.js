@@ -31,7 +31,7 @@ async function getCourses(){
     //.limit(10)
     // .find()
     // .or([{author:'mosh' }, {isPublished:true}])
-    // this carrot punctuation character is used to filter the beginning of the string we want to find
+    // this carrot punctuati on character is used to filter the beginning of the string we want to find
     //for instance, if we want it to return everything written by mosh
     //even if it is written by mosh hamedani or any surname, anywhere mosh apppears, it will return it
     .find({author:/^mosh/})
@@ -43,11 +43,5 @@ async function getCourses(){
     const pageNumber =2;
     const pageSize = 10;
     const course = await course
-
-
-
-
-
-
     
 };
